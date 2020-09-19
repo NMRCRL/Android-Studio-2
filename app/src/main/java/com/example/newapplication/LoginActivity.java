@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
         if ("android".equals(username) && "123456".equals(password)){
             Toast.makeText(this,"登录成功", Toast.LENGTH_LONG).show();
 
-            Intent intent = new Intent(this,LoginActivity.class);
+            Intent intent = new Intent(this,InfoActivity.class);
             intent.putExtra("username",username);
             startActivity(intent);
         }else{
