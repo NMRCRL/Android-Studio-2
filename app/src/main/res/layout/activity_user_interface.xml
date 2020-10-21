@@ -17,52 +17,52 @@
     <LinearLayout
         android:id="@+id/tab_menu"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="70dp"
         android:orientation="horizontal"
         android:layout_alignParentBottom="true">
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:drawableTop="@drawable/ic_course"
-            android:text="课程"/>
-
-        <TextView
-
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-
-            android:drawablePadding="3dp"
-            android:gravity="center"
-            android:drawableTop="@drawable/ic_exercise_bg_1"
-            android:text="习题"/>
-
-
-
-        <TextView
-
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-
-            android:drawablePadding="3dp"
-
-            android:gravity="center"
-            android:drawableTop="@drawable/ic_message"
-            android:text="资讯"/>
-
-        <TextView
-
+        <RadioButton
+            android:id="@+id/kecheng"
+            style="@style/TabMenuItem"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:drawableTop="@drawable/ic_course"
+            android:gravity="center"
+            android:text="课程" />
+
+        <RadioButton
+            style="@style/TabMenuItem"
+            android:id="@+id/xiti"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_exercise_bg_1"
+            android:text="分数"/>
+
+
+        <RadioButton
+            android:id="@+id/zixun"
+            style="@style/TabMenuItem"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:drawableTop="@drawable/ic_message"
+
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:text="资讯" />
+
+        <RadioButton
+            style="@style/TabMenuItem"
+            android:id="@+id/myy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:drawableTop="@drawable/ic_my"
             android:drawablePadding="3dp"
-
-
             android:gravity="center"
 
 

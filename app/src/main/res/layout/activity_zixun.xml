@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zixun">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/zixun" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="56dp"
+                android:layout_height="101dp"
+                android:layout_weight="1"
+                android:text="今天给大家分享一个我的读者的故事，这个故事很长，从游戏boy到offer收割机，从富士康到百度再到微软，国内知名大厂的公司他都拿了一遍offer。
+
+"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/zixun1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="56dp"
+                android:layout_height="101dp"
+                android:layout_weight="1"
+                android:text="有消息称，字节跳动将持续大规模招聘，今年全年校招岗位需求将超过1.2万人。在Boss上，字节系正在招聘的岗位数量也超过了1万个。
+
+并且几乎隔三差五，能看到某某高管跳槽字节跳动。腾讯“一线”不久前爆出，去年从百度离职的5名高管中，已经有2名正式加入了字节跳动。另外，在这次秋招的热潮中，字节也绝对赚足了眼球。"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/zixun2" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="56dp"
+                android:layout_height="101dp"
+                android:layout_weight="1"
+                android:text="一位小伙伴狂刷1个月面试题，最终拿下了字节跳动的Offer，今天小编把这位小伙伴遇到的面试题分享出来，希望能对即将面试的小伙伴有所帮助。
+小编还整理了一份Java面试核心笔记资料，希望可以帮到你们哦~"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/zixun3" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="56dp"
+                android:layout_height="101dp"
+                android:layout_weight="1"
+                android:text="一、大佬们的一些见解
+“在就业创业中，您觉得最重要的是什么？”
+
+关于这个题目，我问了十几个博客专家、初创公司的老大、技术牛人、普通医院院长、资深网络工程师、研究生、副经理的助理、项目经理、在职人员、测试工程师、医生、老师、程序员、还有我的好朋友们、同学们等。
+
+"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/zixun4" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="56dp"
+                android:layout_height="101dp"
+                android:layout_weight="1"
+                android:text="大学时代，我一度有个想法，读一个垃圾大学还不如读技校！！！而且差点退学，去读技校……幸亏我爸骂了我一顿……
+
+因为到了大三，除了背会了些基本概念，学校什么都没教会。教点java、C++也都是基本语法。
+
+选修的网页设计课，报的人趋之若鹜，守着时间点抢名额。到最后，也就是做一个简单的html页面，连jquery都没教会。
+
+ "
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/zixun7" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="56dp"
+                android:layout_height="101dp"
+                android:layout_weight="1"
+                android:text="我在便条上写的是“什么都想接触一下，什么都比较菜。”我什么特长都没有、可以说连爱好都没有。我喜欢贫嘴，嘻嘻哈哈，做队伍中讲段子逗乐的那个憨批。火影忍者里佐助说鸣人就只会用影分身(一个变化出很多自己一起作战的招数)，越是爱用，就约说明你孤独。"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/zixun6" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="56dp"
+                android:layout_height="101dp"
+                android:layout_weight="1"
+                android:text="我也一样，逗乐是为了存在感吧。反正一个人的时候很少会扬嘴角。回到家，回到大学同学高中同学初中同学那一拨里，还能说自己是个博士生算是个亮点，其实更多的是想从别人的嘴里说出来，然后我再故作谦虚的说点“别的啥也不会”的话。在这个“西土城码农职业学院”我什么也不是。"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/zixun7" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="56dp"
+                android:layout_height="101dp"
+                android:layout_weight="1"
+                android:text="我讨厌北京这座城市。我总说，这的人，无论本地还是外乡，脸上的胭脂粉太厚，你即使挠烂了他的脸，却发现底下还有一层。我是个村里来的老实人，读研前从来没来过北京，08年奥运会的时候恨不得钻进电视里去看那些穿的好看的小姐姐们，还有大楼房。小学的时候，有个同学是老师的孩子，家里住楼房，他说他不坐着拉不出屎。我羡慕的很，那时候从来没见过马桶，可是面子上过不去，就说自己蹲惯了，喜欢蹲在马桶上。虽然现在我确实不喜欢坐着用马桶。"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

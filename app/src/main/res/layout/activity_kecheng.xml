@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kecheng">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="56dp"
+        android:layout_height="101dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/java4" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="56dp"
+        android:layout_height="101dp"
+        android:layout_weight="1"
+        android:text="1) 了解Java基础（集合类、IO操作、异常处理、并发原语、序列化等） 2) 数据库基础（常用的增删改查，能够满足日常工作）。 3) 会用常用的框架与工具，如spring框架、java web容器（tomcat、jetty）、代码管理工具git、依赖管理（maven、gradle）。 4) 有一颗积极向上和渴望提升自己的心！（此微专业为技能提升课程，需要学员能够坚持学习）。"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/java1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="56dp"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:text="课程内容涵盖了目前市面上JAVA面试和工作中的热门技术，是每个高级工程师、架构师都必须掌握的； 咱们课程按照安排完整学完，肯定能够达到一线公司要求的技术水平。 网易的老师会针对个人基础，制定多个阶段性目标，帮助你一步步的提升。 所以我们的很多学员，学习了一阵子，开始出去面试就涨薪了。 能够快速提升的秘诀，就是我们有网易技术大佬制作的课程，配合网易老师制定的学习计划，不论你现在什么样的基础，都能够得到大幅度提升。"
+            />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/java3" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="56dp"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:text="0.独家微软官方力荐JS API自动办公混合开发实战
+1.系统化Python爬虫实战项目
+2.VBA零基础到系统进阶+Python+VBA+Windows原生接口混合开发
+3.Excel,PPT,Word,爬虫,自动邮件发送结合
+4.模块化思想,代码可灵活组合,构建适合自己的定制化项目"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/java4" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="56dp"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:text="面向对象是一种编程范式，它在问题领域中识别实体形成对象，用类描述对象和对象之间的互动关系，最终形成程序。Java是一种优秀的面向对象语言。本课程主要集中在Java语言本身，同时你将学习到面向对象程序设计的知识。"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/python" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="56dp"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:text="此门微专业总共时长在120个小时左右，课程采取在线录播（占比94%）+在线直播（占比6%） +线上作业测评及考试的形式完成；按照班主任老师提供的课程表，有计划的进行学习。"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pythone3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="56dp"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:text="1) 此课程零基础可学，学历要求在大专及以上； 2) 有一定Python编程语言基础，上手可以更快，对学习有很大的帮助； 3) 最重要的是，有一颗积极向上和渴望提升自己的心！"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pythone2" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="56dp"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:text="本微专业不要求学员有编程基础，课程也不会使用复杂软件。课程从Python编程零基础教起，帮助学员快速上手，从入门到精通，掌握各类网络爬虫技术，并且能够独立完成商业实战项目，足以胜任一般爬虫工程师的工作。"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -31,6 +31,7 @@ public class InfoActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
 
+
         //初始化界面控件
         //1.获取控件对象
         tvUsername = findViewById(R.id.tv_username);

@@ -18,7 +18,7 @@
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
-            android:src="@drawable/default_icon"/>
+            android:src="@drawable/touxiang3"/>
         <TextView
             android:id="@+id/tv_username"
             android:layout_width="wrap_content"
@@ -36,6 +36,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/yonghu"
             android:text="姓名"
             android:textSize="30dp"></TextView>
 
@@ -59,6 +60,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/xingbie"
                 android:text="性别"
                 android:textSize="30dp">
             </TextView>
@@ -66,14 +68,14 @@
                 android:id="@+id/rbtn_male"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="男"
+                android:drawableLeft="@drawable/nan"
                 android:textSize="30sp">
             </RadioButton>
             <RadioButton
                 android:id="@+id/rbtn_female"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="女"
+                android:drawableLeft="@drawable/nv"
                 android:textSize="30sp">
             </RadioButton>
         </RadioGroup>
@@ -95,6 +97,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/java"
             android:text="Java面向对象"
             android:textSize="30sp">
         </CheckBox>
@@ -103,6 +106,7 @@
             android:layout_marginTop="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/android"
             android:text="Android项目开发"
             android:textSize="30sp">
         </CheckBox>
@@ -111,6 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sql"
             android:text="数据库管理"
             android:textSize="30sp">
         </CheckBox>
@@ -118,11 +123,12 @@
 
 
     <Button
+        android:background="@drawable/red"
         android:id="@+id/btn_confirm"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#E47833"
+
         android:text="确认"/>
 
 </LinearLayout>

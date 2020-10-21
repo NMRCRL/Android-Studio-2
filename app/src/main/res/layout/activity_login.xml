@@ -12,7 +12,7 @@
         android:layout_height="143dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:src="@drawable/default_icon" />
+        android:src="@drawable/touxiang3" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             android:id="@+id/et_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/user_name_icon"
+            android:drawableLeft="@drawable/yonghu"
             android:hint="请输入用户名"
             android:textSize="26sp" />
 
@@ -31,8 +31,9 @@
             android:id="@+id/et_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/psw_icon"
+            android:drawableLeft="@drawable/mima"
             android:hint="请输入密码"
+            android:inputType="numberPassword"
             android:textSize="26sp" />
     </LinearLayout>
     <LinearLayout
@@ -58,10 +59,12 @@
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#EF7838"
+            android:background="@drawable/red"
             android:text="登录"
             android:textColor="#FFF"
-            android:textSize="32sp"></Button>
+            android:textSize="32sp">
+
+        </Button>
     </LinearLayout>
 
     <LinearLayout
@@ -71,15 +74,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="40dp"
+            android:drawableLeft="@drawable/zhuce"
             android:text="立即注册"
             android:textSize="26dp">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
-            android:text="找回密码?"
+            android:layout_marginLeft="60dp"
+            android:drawableLeft="@drawable/zhaohui"
+            android:text="找回密码"
             android:textSize="26dp">
         </TextView>
     </LinearLayout>
