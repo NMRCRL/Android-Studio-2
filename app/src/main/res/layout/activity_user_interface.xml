@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:drawableTop="@drawable/ic_course"
+            android:drawableTop="@drawable/kecheng1"
             android:gravity="center"
             android:text="课程" />
 
@@ -39,7 +39,7 @@
             android:layout_weight="1"
             android:drawablePadding="3dp"
             android:gravity="center"
-            android:drawableTop="@drawable/ic_exercise_bg_1"
+            android:drawableTop="@drawable/fenshu"
             android:text="分数"/>
 
 
@@ -61,7 +61,7 @@
             android:id="@+id/myy"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:drawableTop="@drawable/ic_my"
+            android:drawableTop="@drawable/wode"
             android:drawablePadding="3dp"
             android:gravity="center"
 
