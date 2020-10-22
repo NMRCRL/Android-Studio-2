@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zixuntiao">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="62dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/default_icon"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="-5dp"
+        tools:ignore="MissingConstraints">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="414dp"
+        android:layout_height="163dp"
+        app:srcCompat="@drawable/zixun"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="69dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="411dp"
+        android:layout_height="195dp"
+        android:text="今天给大家分享一个我的读者的故事，这个故事很长，从游戏boy到offer收割机，从富士康到百度再到微软，国内知名大厂的公司他都拿了一遍offer.
+这当中有太多心酸和努力，在他的身上我也能看到一些自己的影子，希望大家可以从他的文章里有所收获，有所感悟。
+
+话不多说，我们来听他的故事。国庆节的第一天，自习室里已经没有什么人了。窗外，西安的秋天飘一点点雨，坐在电脑前心情十分平静。想在这个难得的闲暇里，想起记录一下自己这些年的经历，也是给自己留一点以后可以回忆的故事。
+
+个人2014年入学，武汉某大学计科相关专业，学科评估200名开外。"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
