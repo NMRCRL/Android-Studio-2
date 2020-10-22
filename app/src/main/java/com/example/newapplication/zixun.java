@@ -13,6 +13,7 @@ public class zixun extends AppCompatActivity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zixun);
         findViewById(R.id.imageView).setOnClickListener(this);
+        findViewById(R.id.imageView1).setOnClickListener(this);
     }
 
     @Override
@@ -20,6 +21,11 @@ public class zixun extends AppCompatActivity implements View.OnClickListener {
         switch (view.getId()) {
             case R.id.imageView:
                 Intent intent = new Intent(this, zixuntiao.class);
+                startActivity(intent);
+                overridePendingTransition(0, 0);
+                break;
+            case R.id.imageView1:
+                 intent = new Intent(this, zixuntiao1.class);
                 startActivity(intent);
                 overridePendingTransition(0, 0);
                 break;

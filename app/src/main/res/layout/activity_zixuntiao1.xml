@@ -3,11 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="horizontal"
     android:layout_height="match_parent"
-    tools:context=".zixuntiao">
-
-
+    tools:context=".zixuntiao1">
     <ImageView
 
         android:id="@+id/imageView13"
@@ -17,12 +14,12 @@
         app:srcCompat="@drawable/touxiang1" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/imageView20"
         android:layout_width="match_parent"
         android:layout_height="184dp"
         android:layout_below="@id/imageView13"
         android:layout_marginTop="20dp"
-        android:background="@drawable/zixun" />
+        android:background="@drawable/zixun1" />
 
     <TextView
         android:layout_marginTop="20dp"
@@ -30,10 +27,13 @@
         android:layout_width="match_parent"
         android:layout_height="233dp"
         android:background="@drawable/wenbenkuang"
-        android:layout_below="@id/imageView19"
+        android:layout_below="@id/imageView20"
         android:textStyle="italic"
-        android:textSize="17sp"
-        android:text="21日晚间，蚂蚁集团更新后的招股意向书显示，本次发行的初步询价时间为10月23日，申购时间为10月29日，缴款日期为11月2日，本次股票发行结束后公司将尽快申请在科创板上市，显示代码为688688。目前美股市值排名前10的公司中，包括“FAAMG” （脸书、苹果、亚马逊、微软、谷歌）在内，共7家科技公司；港股市值前10的公司则有4家科技公司，包括阿里巴巴、腾讯等。此前，中国互联网公司的上市首选地通常是美股或港股，A股投资者少有机会分享互联网发展红利。" />
+        android:textSize="19sp"
+        android:text="有消息称，字节跳动将持续大规模招聘，今年全年校招岗位需求将超过1.2万人。在Boss上，字节系正在招聘的岗位数量也超过了1万个。
+
+并且几乎隔三差五，能看到某某高管跳槽字节跳动。腾讯“一线”不久前爆出，去年从百度离职的5名高管中，已经有2名正式加入了字节跳动。另外，在这次秋招的热潮中，字节也绝对赚足了眼球。"></TextView>
+
 
 
 </RelativeLayout>

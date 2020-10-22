@@ -12,7 +12,67 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/tab_menu"
-        android:layout_marginBottom="4dp" />
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="185dp"
+            android:layout_height="150dp"
+            android:background="@drawable/zixun" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="185dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="210dp"
+            android:background="@drawable/zixun1" />
+
+        <ImageView
+            android:layout_marginTop="160dp"
+            android:id="@+id/imageView10"
+            android:layout_width="185dp"
+            android:layout_height="150dp"
+            android:background="@drawable/pythone1" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="185dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/java1" />
+
+        <ImageView
+            android:layout_marginTop="320dp"
+            android:id="@+id/imageView12"
+            android:layout_width="185dp"
+            android:layout_height="150dp"
+            android:background="@drawable/pythone3" />
+
+        <ImageView
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="320dp"
+            android:id="@+id/imageView13"
+            android:layout_width="185dp"
+            android:layout_height="150dp"
+            android:background="@drawable/java3" />
+
+        <ImageView
+            android:layout_marginTop="480dp"
+            android:id="@+id/imageView14"
+            android:layout_width="185dp"
+            android:layout_height="150dp"
+            android:background="@drawable/java4" />
+
+        <ImageView
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="480dp"
+            android:id="@+id/imageView15"
+            android:layout_width="185dp"
+            android:layout_height="150dp"
+            android:background="@drawable/zixun6" />
+
+    </FrameLayout>
 
     <LinearLayout
         android:id="@+id/tab_menu"

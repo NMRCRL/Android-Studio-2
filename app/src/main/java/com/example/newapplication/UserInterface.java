@@ -16,6 +16,8 @@ public class UserInterface extends AppCompatActivity implements View.OnClickList
         findViewById(R.id.zixun).setOnClickListener(this);
         findViewById(R.id.xiti).setOnClickListener(this);
         findViewById(R.id.myy).setOnClickListener(this);
+        findViewById(R.id.imageView8).setOnClickListener(this);
+        findViewById(R.id.imageView9).setOnClickListener(this);
     }
 
     @Override
@@ -38,6 +40,16 @@ public class UserInterface extends AppCompatActivity implements View.OnClickList
                 break;
             case R.id.myy:
                 intent = new Intent(this, Myy.class);
+                startActivity(intent);
+                overridePendingTransition(0, 0);
+                break;
+            case R.id.imageView8:
+                intent = new Intent(this, zixuntiao.class);
+                startActivity(intent);
+                overridePendingTransition(0, 0);
+                break;
+            case R.id.imageView9:
+                intent = new Intent(this, zixuntiao1.class);
                 startActivity(intent);
                 overridePendingTransition(0, 0);
                 break;
