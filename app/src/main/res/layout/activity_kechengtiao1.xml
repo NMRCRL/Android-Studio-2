@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kehchengtiao">
+
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kechengtiao1" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_below="@id/imageView18"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kechengtiao2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_below="@id/imageView19"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/wenbenkuang1"
+        android:text="面向对象是一种编程范式，它在问题领域中识别实体形成对象，用类描述对象和对象之间的互动关系，最终形成程序。Java是一种优秀的面向对象语言。本课程主要集中在Java语言本身，同时你将学习到面向对象程序设计的知识。"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </TextView>
+</RelativeLayout>

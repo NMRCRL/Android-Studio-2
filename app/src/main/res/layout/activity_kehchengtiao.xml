@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".kehchengtiao">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="match_parent"
+        android:layout_height="483dp"
+        android:background="@drawable/kehcengtiao" />
+
+    <TextView
+        android:background="@drawable/wenbenkuang1"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_below="@id/imageView18"
+        android:layout_marginTop="10dp"
+        android:text="了解Java基础（集合类、IO操作、异常处理、并发原语、序列化等） 2) 数据库基础（常用的增删改查，能够满足日常工作）。
+3) 会用常用的框架与工具，如spring框架、java web容器（tomcat、jetty）、代码管理工具git、依赖管理（maven、gradle）。 4) 有一颗积极向上和渴望提升自己的心！（此微专业为技能提升课程，需要学员能够坚持学习）。"
+        android:textSize="15sp"
+        android:textStyle="bold">
+
+    </TextView>
+</RelativeLayout>

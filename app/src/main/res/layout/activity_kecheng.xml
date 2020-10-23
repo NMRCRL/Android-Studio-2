@@ -14,6 +14,7 @@
         android:background="@drawable/java4" />
 
     <TextView
+        android:background="@drawable/wenbenkuang"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:layout_below="@id/imageView17"
@@ -31,5 +32,30 @@
         android:layout_marginTop="226dp"
         android:background="@drawable/xiangqing"
         android:text="" />
+
+    <TextView
+        android:background="@drawable/wenbenkuang"
+        android:id="@+id/textview9"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_below="@id/textView8"
+        android:layout_marginTop="10dp"
+        android:text="面向对象是一种编程范式，它在问题领域中识别实体形成对象，用类描述对象和对象之间的互动关系,最终形成程序。"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignRight="@id/textview9"
+        android:layout_marginTop="328dp"
+        android:background="@drawable/xiangqing">
+
+    </Button>
+
+
+
 
 </RelativeLayout>
