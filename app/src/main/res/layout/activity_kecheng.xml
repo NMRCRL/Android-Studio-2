@@ -77,7 +77,25 @@
 
     </Button>
 
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/textView10"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/wenbenkuang"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="1) 此课程零基础可学，学历要求在大专及以上； 2) 有一定Python编程语言基础，上手可以更快，对学习有很大的帮助； 3) 最重要的是，有一颗积极向上和渴望提升自己的心！"
+        ></TextView>
 
+    <Button
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignRight="@id/textView11"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="-29dp"
+        android:background="@drawable/xiangqing">
 
-
+    </Button>
 </RelativeLayout>
