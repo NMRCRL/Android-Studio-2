@@ -54,6 +54,28 @@
         android:background="@drawable/xiangqing">
 
     </Button>
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_below="@id/textview9"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/wenbenkuang"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="课程内容涵盖了目前市面上JAVA面试和工作中的热门技术，是每个高级工程师、架构师都必须掌握的；咱们课程按照安排完整学完，肯定能够达到一线公司要求的技术水平。">
+
+    </TextView>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignRight="@id/textview9"
+        android:layout_below="@id/textView10"
+        android:layout_marginTop="-29dp"
+        android:background="@drawable/xiangqing">
+
+    </Button>
 
 
 
