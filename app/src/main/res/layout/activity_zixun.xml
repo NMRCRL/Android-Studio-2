@@ -27,7 +27,6 @@
                 android:layout_height="101dp"
                 android:layout_weight="1"
                 android:text="今天给大家分享一个我的读者的故事，这个故事很长，从游戏boy到offer收割机，从富士康到百度再到微软，国内知名大厂的公司他都拿了一遍offer。
-
 "
                 />
 
@@ -36,7 +35,6 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
 
             <ImageView
                 android:id="@+id/imageView1"
